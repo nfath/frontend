@@ -11,6 +11,6 @@
 // 3rd kind of function definition
 const lessThanOrEqualToZero = num => num <= 0;
 
-console.log(lessThanOrEqualToZero(5))
-console.log(lessThanOrEqualToZero(0))
-console.log(lessThanOrEqualToZero(-2))
+console.log(lessThanOrEqualToZero(5));
+console.log(lessThanOrEqualToZero(0));
+console.log(lessThanOrEqualToZero(-2));
