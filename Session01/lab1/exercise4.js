@@ -1,7 +1,10 @@
 const helloWorlds = (number) => {
     console.log("Q: Is " + number + " a number?" + " A: " + !isNaN(number) );
+    console.log("Q: Is " + number + " a Finite number?" + " A: " + isFinite(number) );
+    console.log(typeof(number));
 
-    if (isNaN(number)){
+    //if (isNaN(number) && !isFinite(number)){
+    if (isNaN(number) || typeof(number) != 'number'){
         console.log("Goodbye World!");
         return;
     }
